@@ -1,0 +1,103 @@
+
+/* GENERAL WEBSITE STYLE */
+
+body {
+    background-color: #111111;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #000000;
+    color: #D4AF37;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #D4AF37;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    background-color: #222222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #D4AF37;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* HEADINGS */
+
+h1, h2 {
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+/* LINKS */
+
+a {
+    color: #D4AF37;
+}
+
+a:hover {
+    color: white;
+}
+
+/* CONTENT SECTIONS */
+
+section {
+    background-color: #222222;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 3px solid #D4AF37;
+}
+
+/* IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* IMAGE CAPTIONS */
+
+figcaption {
+    color: #D4AF37;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    color: #D4AF37;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
