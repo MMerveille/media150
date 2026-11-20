@@ -1,61 +1,108 @@
 
-/* GENERAL WEBSITE STYLE */
+/* Good enough? */
+
+
+/* =========================
+   GENERAL WEBSITE
+========================= */
 
 body {
     background-color: #111111;
     color: #eeeeee;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    line-height: 1.7;
     margin: 0;
-    padding: 0;
 }
 
-/* HEADER */
+/* =========================
+   HEADER
+========================= */
 
 header {
-    background-color: #000000;
+    background-color: #080808;
     color: #D4AF37;
-    padding: 25px;
+    padding: 30px;
     text-align: center;
+    font-size: 22px;
     font-weight: bold;
-    border-bottom: 2px solid #D4AF37;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #D4AF37;
 }
 
-/* NAVIGATION BAR */
+/* =========================
+   NAVIGATION BAR
+========================= */
 
 nav {
-    background-color: #222222;
-    padding: 15px;
+    background-color: #1B1B1B;
+    padding: 18px;
     text-align: center;
+    border-bottom: 1px solid #333333;
 }
 
 nav a {
     color: #D4AF37;
     text-decoration: none;
     font-weight: bold;
-    margin: 15px;
+    margin: 0 20px;
+    transition: 0.3s;
 }
 
 nav a:hover {
     color: white;
 }
 
-/* MAIN CONTENT */
+/* =========================
+   MAIN CONTENT
+========================= */
 
 main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 25px;
 }
 
-/* HEADINGS */
+/* =========================
+   HEADINGS
+========================= */
 
-h1, h2 {
+h1 {
+    color: #E5C76B;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h2 {
     color: #D4AF37;
-    font-weight: bold;
+    font-size: 24px;
 }
 
-/* LINKS */
+/* =========================
+   PARAGRAPHS
+========================= */
+
+p {
+    color: #D0D0D0;
+    line-height: 1.9;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    background-color: #1C1C1C;
+    padding: 30px;
+    margin-top: 30px;
+    border: 1px solid #393222;
+    border-left: 4px solid #D4AF37;
+    border-radius: 8px;
+}
+
+/* =========================
+   LINKS
+========================= */
 
 a {
     color: #D4AF37;
@@ -65,39 +112,61 @@ a:hover {
     color: white;
 }
 
-/* CONTENT SECTIONS */
+/* =========================
+   READING LIST
+========================= */
 
-section {
-    background-color: #222222;
-    padding: 20px;
-    margin-top: 20px;
-    border-left: 3px solid #D4AF37;
+ol {
+    padding-left: 25px;
 }
 
-/* IMAGES */
+li {
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   IMAGES
+========================= */
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 25px auto;
+    border-radius: 8px;
 }
 
-/* IMAGE CAPTIONS */
+/* =========================
+   IMAGE CAPTIONS
+========================= */
 
 figcaption {
     color: #D4AF37;
     text-align: center;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 
 footer {
-    background-color: #000000;
+    background-color: #080808;
     color: #D4AF37;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 25px;
+    margin-top: 60px;
+    border-top: 1px solid #D4AF37;
+    letter-spacing: 1px;
 }
